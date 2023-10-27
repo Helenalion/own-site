@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Скетчинг</title>
+    <style>
+        /* CSS стили для карточек мероприятий */
+        .event-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            padding: 20px;
+            background-color: #F2F2F2;
+            border-radius: 10px;
+        }
+
+        .event-card img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Скетчинг</h1>
+    </header>
+
+    <main>
+        <!-- Карточки мероприятий -->
+        <div class="event-card">
+            <img src="event1.jpg" alt="Мероприятие 1">
+            <h2>Мероприятие 1</h2>
+            <p>Описание мероприятия 1</p>
+        </div>
+
+        <div class="event-card">
+            <img src="event2.jpg" alt="Мероприятие 2">
+            <h2>Мероприятие 2</h2>
+            <p>Описание мероприятия 2</p>
+        </div>
+
+        <div class="event-card">
+            <img src="event3.jpg" alt="Мероприятие 3">
+            <h2>Мероприятие 3</h2>
+            <p>Описание мероприятия 3</p>
+        </div>
+    </main>
+</body>
+</html>
